@@ -1,0 +1,25 @@
+{
+  "name": "my-temperature-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon -r esm readerScript.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.27",
+    "node-dht-sensor": "^0.4.3",
+    "nodemon": "^2.0.4",
+    "winston": "^3.3.3",
+    "winston-mongodb": "^5.0.1"
+  },
+  "type": "module"
+}
